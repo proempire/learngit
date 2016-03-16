@@ -1,0 +1,114 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="c.css">
+		<script type="text/javascript">
+		    window.onload = function(){
+		    	var oformal = document.getElementById('formal');
+		    	var ohexagon = document.getElementById('hexagon');
+                var ohexa1 = document.getElementById('hexa1');
+                var ohexa3 = document.getElementById('hexa3');
+                var ohexa5 = document.getElementById('hexa5');
+                ohexagon.onclick = function(){
+                    oformal.style.cssText = 'background-image: url(EEYESFORWORLD-stl.png);';
+                }
+                /*ohexagon.onmouseenter = function(){
+                    ohexagon.style.cssText = 'background: rgba(255,255,255,1)';
+                }*/
+                ohexa1.onclick = function(){
+                    oformal.style.cssText = 'background-image: url(eeyesnews.png);';//大到小
+                }
+                ohexa1.onmouseenter = function(){
+                	
+                }
+                ohexa3.onclick = function(){
+                	oformal.style.cssText = 'background-image: url(bigscreen.png);';//小到大
+                }
+                ohexa3.onmouseenter = function(){
+                	
+                }
+                ohexa5.onclick = function(){
+                	oformal.style.cssText = 'background-image: url(aboutus.png);';//大到小
+                }
+                ohexa5.onmouseenter = function(){
+                	
+                }
+		    }
+		</script>
+	</head>
+	<body>
+		<div class="nav">
+		    <div class="mlogo">e</div>
+			<div class="logo">瞳网</div>
+			<ul class="cata">
+				<li class="nlas"><a href="#">西安交通大学</a></li>
+				<li class="nlas"><a href="#">校图书馆</a></li>
+				<li class="nlas"><a href="#">小瞳新闻</a></li>
+				<li class="nlas"><a href="#">易学堂</a></li>
+				<li class="nlas"><a href="#">大屏幕</a></li>
+				<li class="nlas"><a href="#">爱影视</a></li>
+				<li class="nlas"><a href="#">交大知道</a></li>
+				<li class="nlas"><a href="#">二手市场</a></li>
+				<li class="las"><a href="#">胭脂坡上</a></li>
+			</ul>
+		</div>
+		<div>
+			<ul>
+				<li>
+					<div class="formal" id="formal">
+						<a id="hexagon">
+							<h1 style="">EEYES</h1>
+							<h1>FOR</h1>
+							<h1>WORLD</h1>
+							<p>ONLY&nbspFOR&nbspBRILLIANT</p>
+						</a>
+						<a class="hexagon1" id="hexa1">
+							<h2>01</h2>
+							<h1>小瞳新闻</h1>
+						</a>
+						<div class="hexagon2" id="hexa2"></div>
+						<a class="hexagon1" id="hexa3">
+							<h2>02</h2>
+							<h1 style="position: relative; left: 28px;">大</h1>
+							<h1>屏幕</h1>
+						</a>
+						<div class="hexagon2" id="hexa4"></div>
+						<a class="hexagon1" id="hexa5">
+							<h2>03</h2>
+							<h1 style="font-size: 28px; position: relative; left: -12px; top: 16px; color: white;">ABOUT</h1>
+							<h1 style="font-size: 28px; position: relative; left: 68px; top: 16px; color: white;">US</h1>
+						</a>
+						<div class="hexagon2" id="hexa6"></div>
+					</div>
+				</li>
+				<li><div class="formal1"></div></li>
+				<li><div class="formal2"></div></li>
+				<li><div class="formal3"></div></li>
+				<li><div class="formal4"></div></li>
+				<li><div class="formal5"></div></li>
+			</ul>
+		</div>
+		<div class="footer">
+			<img src="logo1.png" class="logoo">
+			<div class="tai">
+				<ul class="cata1">
+					<li class="nlas"><a href="#">西安交通大学</a></li>
+					<li class="nlas"><a href="#">校图书馆</a></li>
+					<li class="nlas"><a href="#">小瞳新闻</a></li>
+					<li class="nlas"><a href="#">易学堂</a></li>
+					<li class="nlas"><a href="#">大屏幕</a></li>
+					<li class="nlas"><a href="#">爱影视</a></li>
+					<li class="nlas"><a href="#">交大知道</a></li>
+					<li class="nlas"><a href="#">二手市场</a></li>
+					<li><a href="#">胭脂坡上</a></li>
+					<section style="clear: both;"></section>
+				</ul>
+				<div class="cata2">eeYes.net&nbsp2002-2015&nbsp版权所有</div>
+				<div class="cata3">陕ICP备030061号</div>
+			</div>
+			<img src="二维码.png" class="doudim">
+		</div>
+	</body>
+</html>
