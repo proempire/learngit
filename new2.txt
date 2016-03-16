@@ -18,7 +18,7 @@
                     ohexagon.style.cssText = 'background: rgba(255,255,255,1)';
                 }*/
                 ohexa1.onclick = function(){
-                    oformal.style.cssText = 'background-image: url(eeyesnews.png);';//大到小
+                    oformal.style.cssText = 'background-image: url(eeyesnews.png);';//大到小嘛
                 }
                 ohexa1.onmouseenter = function(){
                 	
