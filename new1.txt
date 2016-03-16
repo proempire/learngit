@@ -13,7 +13,7 @@
 			    <input class="usr2" id="usr2" name="word" align="center">
 			</div>
 			<div class="tkey">
-			    <input class="key1" id="key1" name="word" value="请输入你的yymail密码">
+			    <input class="key1" id="key1" name="word" value="请输入你的yymail密码哟">
 			    <input class="key2" id="key2" name="word" type="password">
 			</div>
 			<div class="footer">
