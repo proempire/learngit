@@ -1,0 +1,68 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>ymail</title>
+		<link rel="stylesheet" type="text/css" href="sty.css">
+	</head>
+	<body>
+		<div class="main">
+			<img src="mailp.jpg" class="mailp">
+			<div class="tusr">
+			    <input class="usr1" id="usr1" name="word" value="yy号码" align="center">
+			    <input class="usr2" id="usr2" name="word" align="center">
+			</div>
+			<div class="tkey">
+			    <input class="key1" id="key1" name="word" value="请输入你的yymail密码">
+			    <input class="key2" id="key2" name="word" type="password">
+			</div>
+			<div class="footer">
+				<div id="outer" class="pclass">
+				    <input class="rati" type="checkbox" checked="checked" name="orati" value="sel">
+				</div>    
+				<p class="rat-lat-word">记住登录状态</p>
+				<div id="submit">
+					<input class="login" type="button" value="登录" size="42">
+				    <div class="real">
+				    	登录
+				    </div>
+				</div>
+				<a href="#" class="pro">忘了密码？</a>
+				<a href="#" class="lat">注册新帐号</a>
+			</div>
+		</div>
+		<script type="text/javascript">
+		    window.onload = function(){
+		    	var osubmit = document.getElementById("submit");
+		    	var ousr1 = document.getElementById("usr1");
+		    	var ousr2 = document.getElementById("usr2");
+		    	var okey1 = document.getElementById("key1");
+		    	var okey2 = document.getElementById("key2");
+		    	var oouter = document.getElementById("outer");
+		    	osubmit.onmouseenter = function(){
+		    		osubmit.style.cssText = "cursor: pointer;";
+		    	}
+		    	osubmit.onmouseout = function(){
+		    		osubmit.style.cssText = "cursor: default;";
+		    	}
+                ousr1.onclick = function(){
+                    ousr1.style.cssText = "border: none; display: none;"
+                    ousr2.style.cssText = "display: block;"
+                }
+                okey1.onclick = function(){
+                	okey1.style.cssText = "border: none; display: none;"
+                    okey2.style.cssText = "display: block;"
+                }
+                oouter.onmouseenter = function(){
+                	oouter.style.cssText = "cursor: pointer;"
+                }
+                oouter.onmouseout = function(){
+                	oouter.style.cssText = "cursor: default;"
+                }
+                oouter.onclick = function(){
+                	document.getElementById("outer").style.cssText = "background-image: none;";
+                }
+		    }
+		</script>
+	</body>
+</html>
