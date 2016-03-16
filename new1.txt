@@ -9,7 +9,7 @@
 		<div class="main">
 			<img src="mailp.jpg" class="mailp">
 			<div class="tusr">
-			    <input class="usr1" id="usr1" name="word" value="yy号码" align="center">
+			    <input class="usr1" id="usr1" name="word" value="yy号码啊" align="center">
 			    <input class="usr2" id="usr2" name="word" align="center">
 			</div>
 			<div class="tkey">
