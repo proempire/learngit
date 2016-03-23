@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	width: 100%;
+	min-width: 800px;
+}
+div#par{
+	overflow: auto;
+	background: #eee;
+	padding: 20px;
+	border: 1px solid #999;
+}
+div#former{
+	width: 200px;
+	padding: 20px;
+	border: 1px solid #999;
+	overflow: auto;
+	float: left;
+	background: #fff;
+}
+div#former img{
+	display: block;
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 10px;
+}
+div#former p{
+	font: italic 900 20px serif;
+}
+div#intro{
+    background: #fff;
+    font: 500 16px 微软雅黑;
+  	border: 1px solid #999;
+  	padding: 20px;
+  	margin: 0 180px 0 260px;
+}
+div#member{
+	border: 1px solid #999;
+    background: #fff;	
+    width: 120px;
+    float: right;
+    overflow: auto;
+    padding: 20px;
+}
+div#member img{
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+}
